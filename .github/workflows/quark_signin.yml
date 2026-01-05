@@ -23,6 +23,6 @@ jobs:
 
       - name: Run Quark Sign-in
         env:
-          COOKIE_QUARK: ${{ secrets.COOKIE_QUARK }}
+          COOKIE_QUARK: ${{ kps=LuGce34FrwtUuBICcB6sz3b6HD0VYfYAQpVvco4gAxR7em+JI+YB58rRdLEu1el2w03lctqjeLvb529b/AP+m97RerES/ze0++F5ePMO3hxJUjBi7/Xzg2kfPxsmzYOICbQ=; sign=LuE/3EpzPD93Ym0IYE+K6EnU+S1GtnQkE/0jvvs2sMJlald+rsj7RYCkaCIR2odzKko=; vcode=1767584024948&app=clouddrive }}
         run: |
           python checkIn_Quark.py
